@@ -1,0 +1,16 @@
+{
+  "name": "presentationbot",
+  "version": "1.0.0",
+  "description": "sample test bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.16.0",
+    "restify": "^7.6.0",
+    "save": "^2.3.2"
+  }
+}
