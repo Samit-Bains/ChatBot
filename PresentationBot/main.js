@@ -12,7 +12,7 @@ module.exports = {
                 .text("5 star rating")
                 .images([builder.CardImage.create(session, 'C:\\Users\\Samit\\Documents\\GitHub\\ChatBot\\PresentationBot\\images\\fancy-restaurants.jpg')])
                 .buttons([
-                    builder.CardAction.imBack(menu.viewMenu(session), "Taking you to the Main Menu", "Show Main Menu")
+                    builder.CardAction.imBack(session, "Taking you to the Main Menu", "Show Main Menu")
                 ]),
                 new builder.HeroCard(session)
                 .title("Hours and Directions")
