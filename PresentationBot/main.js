@@ -19,7 +19,7 @@ module.exports = {
                 .text("Mon-Fri 11:45AM - 10:30PM\nSat 5pm - 10:30PM\nSun 5PM-9:30PM")
                 .images([builder.CardImage.create(session, 'C:\\Users\\Samit\\Documents\\GitHub\\ChatBot\\PresentationBot\\images\\fancy.jpg')])
                 .buttons([
-                    builder.CardAction.imBack(session, "Showing directions", "Show Directions")
+                    builder.CardAction.imBack(session, "Showing you our location", "Place order")
                 ]),
                 new builder.HeroCard(session)
                 .title("Reserve a Table")
